@@ -40,13 +40,13 @@ h1 {
 main {
   height: 100%;
   width: auto;
-  background-image: url(../multimedia/fondo\ home.jpg);
+  background-image: url(multimedia/fondo\ home.jpg);
   background-size: cover;
   background-position: left;
 }
 
 .custom1 {
-  background-image: url(./multimedia/fondo\ home.jpg);
+  background-image: url(multimedia/fondo\ home.jpg);
 }
 
 .quienesSomos {
