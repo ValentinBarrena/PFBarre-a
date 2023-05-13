@@ -1,0 +1,323 @@
+.navbar {
+  background-color: black;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  color: #FFC107 !important;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  color: #FFC107 !important;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: #333 !important;
+  transform: scale(1.2);
+}
+
+.fa-bars {
+  color: #FFC107;
+}
+
+.fa-bars:hover {
+  color: #333;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+main {
+  height: 100%;
+  width: auto;
+  background-image: url(../multimedia/fondo\ home.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.quienesSomos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quienesSomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quienesSomos {
+  width: 100%;
+  height: 100vh;
+}
+
+.fondogeneral {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: auto;
+}
+
+.quienesSomos h1 {
+  color: #FFC107;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.quienesSomos p {
+  color: #FFC107;
+  margin-bottom: 40px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.quienesSomos a {
+  color: #FFC107;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.quienesSomos a:hover {
+  background: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  color: #FFC107;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  border-top: 1px solid #FFC107;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.redes a {
+  color: #FFC107;
+  font-size: 50px;
+  letter-spacing: 50px;
+}
+
+.sam {
+  height: 23vh;
+  margin-top: auto;
+  padding: 20px;
+  color: #FFC107;
+  margin-bottom: 50px;
+}
+
+.a1 {
+  margin-top: 100px;
+}
+
+.title1 {
+  text-align: left;
+  color: black;
+  text-shadow: 1px 2px gray;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.PServicios {
+  text-align: center;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.metPago {
+  margin-top: 20vh;
+  margin-bottom: 80px;
+}
+
+.metpago {
+  text-align: center;
+  color: black;
+  text-shadow: 1px 2px gray;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.title2 {
+  text-align: center;
+  text-shadow: 1px 2px gray;
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sam a {
+  color: #FFC107;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.sam a:hover {
+  background-color: none;
+}
+
+.tituloCarousel {
+  text-align: center;
+  text-shadow: 1px 2px gray;
+  color: black;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.carousel-inner {
+  height: 300px !important;
+  width: 300px !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.tituloNosotros {
+  margin-top: 100px;
+  text-shadow: 1px 2px gray;
+  color: black;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.parrafoNosotros {
+  color: #FFC107;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imgNosotros {
+  width: auto;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.a2 {
+  margin-top: 100px;
+}
+
+.logoNosotrosAbajo {
+  border-bottom: 1px solid black;
+  font-weight: 500px;
+}
+
+.tituloNosotrosAbajo {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.a3 {
+  margin-top: 150px;
+}
+
+.a4 {
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.7019607843);
+  border-radius: 15px;
+}
+
+h4 {
+  text-align: center;
+  color: black;
+}
+
+h6 {
+  text-align: center;
+  color: black;
+}
+
+.pContacto {
+  text-align: center;
+  color: black;
+}
+
+iframe {
+  width: 100%;
+  margin: 0;
+  padding: 100px;
+}
+
+.changes {
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+}
+
+@media only screen and (min-width: 960px) {
+  .sam {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1148px) {
+  .title2 {
+    white-space: nowrap;
+  }
+  .main {
+    height: 100%;
+    width: auto;
+  }
+  .fondogeneral {
+    height: 100%;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 736px) {
+  .sam {
+    height: auto;
+  }
+  .parrafoNosotros {
+    height: auto;
+  }
+  .a2 {
+    height: auto;
+  }
+  .navbar-brand {
+    text-transform: none;
+  }
+  .quienesSomos {
+    text-align: center;
+  }
+}/*# sourceMappingURL=estilos.css.map */

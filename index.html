@@ -9,15 +9,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="../estilos/estilos.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../estilos.css"/>
   <title>Home</title>
+  <meta name="keywords" content="Corralon, Materiales, Construccion, Materiales para construccion, Cemento, Arena, Cal">
+  <meta name="description" content="Tienda de materiales para la construccion">
+  <meta name="author" content="Valentin Barreña">
 </head>
 
 <body>
   <!-- Navbar inicia -->
   <nav class="navbar navbar-expand-lg  navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand " href="#">🧱Materiales para la construccion Barreña</a>
+    <a class="navbar-brand " href="index.html">🧱 Materiales para la construccion Barreña</a>
 
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -29,19 +33,19 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a class="nav-link"  href="#">Servicios</a>
+          <a class="nav-link"  href="./pages/servicios.html">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/servicios.html">Productos</a>
+          <a class="nav-link" href="./pages/productos.html">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros</a>
+          <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="./pages/contacto.html">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/index.html">Home</a>
+          <a class="nav-link" href="#">Home</a>
         </li>
       </ul>
     </div>
@@ -49,13 +53,13 @@
   <!-- Navbar fin -->
 
   <main>
-
-  <div class="quienesSomos">
-    <h1>Quienes somos</h1>
+  <div class="fondogeneral"> 
+  <div data-aos="zoom-in" class="quienesSomos">
+    <h1 class="titulohome">Quienes somos</h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet incidunt repudiandae vel qui consequuntur numquam, quisquam quas architecto dolorum. Atque corrupti, repellendus unde rerum itaque voluptate animi assumenda eveniet ab provident. Nisi praesentium explicabo debitis dignissimos numquam reiciendis quo quas quae alias aliquid, tempore repellat fugiat eius ut voluptas..</p>
     <a href="../pages/servicios.html">Servicios</a>
   </div>
-
+  </div>
 </main>
 
 <!-- Footer Inicia -->
@@ -87,6 +91,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
     integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
