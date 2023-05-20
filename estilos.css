@@ -13,6 +13,7 @@
 
 .navbar-toggler {
   border: none;
+  color: #FFC107 !important;
 }
 
 .nav-link {
@@ -21,16 +22,11 @@
 }
 
 .nav-link:hover {
-  color: #333 !important;
   transform: scale(1.2);
 }
 
 .fa-bars {
-  color: #FFC107;
-}
-
-.fa-bars:hover {
-  color: #333;
+  color: #FFC107 !important;
 }
 
 h1 {
@@ -79,6 +75,7 @@ main {
   font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: "Hind", sans-serif;
 }
 
 .quienesSomos p {
@@ -114,6 +111,9 @@ footer {
 
 footer p {
   margin-bottom: 10px;
+  font-family: "Hind", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 .redes a {
@@ -135,19 +135,16 @@ footer p {
 }
 
 .title1 {
-  text-align: left;
-  color: black;
-  text-shadow: 1px 2px gray;
+  color: #FFC107;
   font-size: 40px;
-  font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Hind", sans-serif;
   text-align: center;
+  font-weight: 600;
 }
 
 .PServicios {
   text-align: center;
-  font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .metPago {
@@ -157,21 +154,20 @@ footer p {
 
 .metpago {
   text-align: center;
-  color: black;
-  text-shadow: 1px 2px gray;
+  color: #FFC107;
   margin-bottom: 0;
   font-size: 40px;
   font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Hind", sans-serif;
+  border-bottom: 1px solid black;
 }
 
 .title2 {
   text-align: center;
-  text-shadow: 1px 2px gray;
-  color: black;
+  color: #FFC107;
   font-size: 40px;
   font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Hind", sans-serif;
 }
 
 .sam a {
@@ -190,12 +186,11 @@ footer p {
 
 .tituloCarousel {
   text-align: center;
-  text-shadow: 1px 2px gray;
-  color: black;
+  color: #FFC107;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Hind", sans-serif;
 }
 
 .carousel {
@@ -215,24 +210,23 @@ footer p {
 
 .tituloNosotros {
   margin-top: 100px;
-  text-shadow: 1px 2px gray;
-  color: black;
+  color: #FFC107;
   text-transform: uppercase;
   font-size: 40px;
+  font-family: "Hind", sans-serif;
   font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .parrafoNosotros {
   color: #FFC107;
-  text-align: left;
-  font-weight: 400;
-  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
 }
 
 .imgNosotros {
   width: auto;
-  height: 200px;
+  height: 350px;
   background-size: cover;
   background-position: center;
   padding: 10px;
@@ -245,13 +239,36 @@ footer p {
 
 .logoNosotrosAbajo {
   border-bottom: 1px solid black;
-  font-weight: 500px;
+  color: black;
+}
+
+.fa-solid {
+  color: black;
+}
+
+.fa-envelope {
+  color: black;
+}
+
+.fa-whatsapp {
+  color: black;
 }
 
 .tituloNosotrosAbajo {
   text-align: center;
   padding: 20px;
   border-bottom: 1px solid black;
+  color: #FFC107;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Hind", sans-serif;
+  font-weight: 600;
+}
+
+.parrafoNosotrosAbajo {
+  color: #FFC107;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
 }
 
 .a3 {
@@ -279,6 +296,13 @@ h6 {
   color: black;
 }
 
+.titleContacto {
+  font-size: 50px;
+  font-family: "Hind", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
 iframe {
   width: 100%;
   margin: 0;
@@ -290,15 +314,21 @@ iframe {
   border-bottom: 1px solid black;
 }
 
+.nosabajo {
+  margin-bottom: 150px;
+}
+
 @media only screen and (min-width: 960px) {
   .sam {
     height: auto;
   }
 }
-@media only screen and (max-width: 1148px) {
+@media only screen and (min-width: 768px) {
   .title2 {
     white-space: nowrap;
   }
+}
+@media only screen and (max-width: 1148px) {
   .main {
     height: 100%;
     width: auto;
@@ -308,7 +338,7 @@ iframe {
     width: auto;
   }
 }
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 960px) {
   .sam {
     height: auto;
   }
